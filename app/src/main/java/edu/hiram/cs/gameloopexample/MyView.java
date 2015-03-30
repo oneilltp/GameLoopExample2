@@ -23,6 +23,7 @@ public class MyView extends SurfaceView implements SurfaceHolder.Callback {
     private static final int PADDLE_LENGTH=150;
     private static final int BALL_SIZE=25;
     private Rect rect;
+    //example
 
     //state variables
     private int xCenter,yCenter;
@@ -37,7 +38,7 @@ public class MyView extends SurfaceView implements SurfaceHolder.Callback {
     MediaPlayer player;
     MediaPlayer player2;
 
-
+//example 2
 
     public MyView(Context context) {
         super(context);
@@ -144,7 +145,7 @@ public class MyView extends SurfaceView implements SurfaceHolder.Callback {
         }
 
 
-        
+
         private int hit(Point p, int x, int y) {
             //P top left corner of block
             //x and y are the ball coordinates
